@@ -5,8 +5,8 @@
 <meta name="theme-color" content="#121316">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sandhu Mobile City Center Jahanian | موبائل منڈی – New & Used Mobiles, Repairing & Accessories</title>
-<meta name="description" content="Sandhu Mobile, City Center Jahanian – new aur used mobiles, 100% original parts ke sath mobile repairing, LCD aur touch panel, fast chargers, Type-C cables, 3D/9D glass protectors, digital mic aur tamam accessories. Apna purana mobile bechne ke liye ad lagayein.">
-<meta name="keywords" content="Sandhu Mobile, mobile shop Jahanian, Jahanian mobile shop, mobile mandi Jahanian, used mobiles Jahanian, new mobiles Jahanian, mobile repairing Jahanian, LCD replacement, touch panel, original mobile parts, fast charger, Type C cable, 9D glass, 3D glass protector, digital mic, mobile accessories Jahanian">
+<meta name="description" content="Sandhu Mobile, City Center Jahanian – new aur used mobiles, 100% original parts ke sath mobile repairing, LCD aur touch panel, fast chargers, Type-C cables, 3D/9D glass protectors, Air Buds, digital mic aur tamam accessories. Apna purana mobile bechne ke liye ad lagayein.">
+<meta name="keywords" content="Sandhu Mobile, mobile shop Jahanian, Jahanian mobile shop, mobile mandi Jahanian, used mobiles Jahanian, new mobiles Jahanian, mobile repairing Jahanian, LCD replacement, touch panel, original mobile parts, fast charger, Type C cable, 9D glass, 3D glass protector, Air Buds, earbuds, digital mic, mobile accessories Jahanian">
 <link rel="canonical" href="https://sandhumobile.pk/">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" href="icon-192.png">
@@ -27,7 +27,7 @@
 {"@type":"Offer","itemOffered":{"@type":"Product","name":"New Mobiles"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Used Mobiles"}},
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Repairing with 100% Original Parts"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"LCD & Touch Panel"}},
 {"@type":"Offer","itemOffered":{"@type":"Product","name":"Fast Chargers"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Fast Speed Type-C Cables"}},
-{"@type":"Offer","itemOffered":{"@type":"Product","name":"Digital Mic"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"3D / 9D Glass Protectors"}},
+{"@type":"Offer","itemOffered":{"@type":"Product","name":"Digital Mic"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Air Buds"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"3D / 9D Glass Protectors"}},
 {"@type":"Offer","itemOffered":{"@type":"Product","name":"Mobile Accessories"}}]}}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,6 +118,13 @@ label{display:block;font-size:13px;color:var(--muted);margin:8px 0 2px}
 .qr{width:190px;height:190px;margin:8px auto;background:#fff;border-radius:10px;padding:8px}
 .status{display:inline-block;font-size:11.5px;padding:0 10px;border-radius:99px;line-height:1.9}
 .st-pending{background:var(--goldSoft);color:#8a6200}.st-live{background:var(--okSoft);color:var(--ok)}.st-rejected{background:var(--redSoft);color:var(--red)}
+.pcard .ph{aspect-ratio:1/1;display:grid;place-items:center;background:#fff;font-size:44px}
+.pcard .ph img{object-fit:contain}
+.pcard .bd{display:flex;flex-direction:column;gap:2px}
+.pcard .wa-s{margin-top:6px;padding:7px 6px;font-size:12.5px;border-radius:10px;white-space:nowrap;text-align:center}
+.oos{position:absolute;top:8px;inset-inline-end:8px;background:var(--redSoft);color:var(--red);font-size:11px;padding:0 9px;border-radius:99px;font-weight:600}
+.pcard.out .ph{opacity:.45}
+.fromtag{font-size:11.5px;color:var(--muted);font-weight:500}
 .list-item{display:flex;gap:10px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:10px;margin-bottom:10px}
 .list-item .th{width:72px;height:72px;border-radius:10px;overflow:hidden;flex:none;background:#eef2f0;display:grid;place-items:center}
 .list-item .th img{width:100%;height:100%;object-fit:cover}
@@ -188,6 +195,7 @@ body.ltr .search input{padding-inline-start:40px}
   <button data-v="home" class="on"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11 12 3l9 8v10h-6v-6H9v6H3z"/></svg><span data-t="nav_home"></span></button>
   <button data-v="mine"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg><span data-t="nav_mine"></span></button>
   <button data-v="post"><span class="plus"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16171a" stroke-width="2.8"><path d="M12 5v14M5 12h14"/></svg></span><span data-t="nav_post"></span></button>
+  <button data-v="store"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 7h12l1 13H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span data-t="nav_store"></span></button>
   <button data-v="shop"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l2-5h14l2 5M4 9v11h16V9M3 9h18M9 20v-6h6v6"/></svg><span data-t="nav_shop"></span></button>
   <button data-v="admin" id="navAdmin" class="hide"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span data-t="nav_admin"></span></button>
 </nav>
@@ -322,6 +330,33 @@ bn_saved:["بینر لگ گیا ✅","Banner lag gaya ✅","Banner added ✅"], 
 bn_max:["زیادہ سے زیادہ {n} بینر لگ سکتے ہیں","Zyada se zyada {n} banner lag sakte hain","Maximum {n} banners"],
 admin_login:["ایڈمن لاگ اِن","Admin login","Admin login"], logout:["لاگ آؤٹ","Logout","Log out"],
 t_loginfail:["لاگ اِن نہیں ہو سکا","Login nahi ho saka","Login failed"], t_notadmin:["یہ Gmail ایڈمن نہیں ہے","Yeh Gmail admin nahi hai","This Gmail is not an admin"],
+nav_store:["سامان","Saaman","Store"],
+st_title:["ایکسیسریز اور ریپیئرنگ","Accessories aur Repairing","Accessories & Repairing"],
+st_sub:["چارجر، ہینڈز فری، ایئر بڈز، ڈیجیٹل مائیک، کیبل، گلاس پیپر اور 100٪ اوریجنل پارٹس سے مرمت","Charger, hands-free, Air Buds, Digital Mic, cable, glass paper aur 100% original parts se marammat","Chargers, hands-free, Air Buds, Digital Mics, cables, glass protectors & repairs with 100% original parts"],
+st_order:["واٹس ایپ پر آرڈر","WhatsApp par order","Order on WhatsApp"],
+st_ask:["ریٹ پوچھیں","Rate poochein","Ask price"],
+st_from:["سے شروع","se shuru","onwards"],
+st_out:["ختم","Khatam","Out of stock"],
+st_empty:["ابھی اس حصے میں کوئی سامان نہیں — واٹس ایپ پر پوچھ لیں","Abhi is hisse mein koi saaman nahi — WhatsApp par pooch lein","Nothing here yet — ask us on WhatsApp"],
+st_note:["قیمتیں تبدیل ہو سکتی ہیں، آخری قیمت واٹس ایپ پر کنفرم کریں۔ دکان سے لیں یا ڈیلیوری کے لیے واٹس ایپ کریں۔","Qeematein tabdeel ho sakti hain, aakhri qeemat WhatsApp par confirm karein. Dukaan se lein ya delivery ke liye WhatsApp karein.","Prices may change — confirm the final price on WhatsApp. Pick up at the shop or WhatsApp us for delivery."],
+st_msg:["السلام علیکم، مجھے یہ چاہیے:","Assalam o Alaikum, mujhe yeh chahiye:","Assalam o Alaikum, I would like:"],
+st_msg_r:["السلام علیکم، مجھے اس مرمت کا ریٹ بتائیں:","Assalam o Alaikum, is repairing ka rate batayein:","Assalam o Alaikum, please tell me the rate for:"],
+st_loading:["لوڈ ہو رہا ہے…","Load ho raha hai…","Loading…"],
+home_store:["🛒 ایکسیسریز اور ریپیئرنگ","🛒 Accessories aur Repairing","🛒 Accessories & Repairing"],
+home_store_s:["چارجر، کیبل، ہینڈز فری، ایئر بڈز، ڈیجیٹل مائیک 🎙️، 9D گلاس — قیمتیں دیکھیں","Charger, cable, hands-free, Air Buds, Digital Mic 🎙️, 9D glass — qeematein dekhein","Chargers, cables, hands-free, Air Buds, Digital Mic 🎙️, 9D glass — see prices"],
+cat_charger:["چارجر","Chargers","Chargers"], cat_handsfree:["ہینڈز فری","Hands-free","Hands-free"], cat_cable:["ڈیٹا کیبل","Data Cables","Data Cables"], cat_airbuds:["ایئر بڈز","Air Buds","Air Buds"],
+cat_glass:["گلاس پیپر","Glass Paper","Glass Protectors"], cat_mic:["ڈیجیٹل مائیک","Digital Mic","Digital Mic"], cat_cover:["کور","Covers","Covers"],
+cat_power:["پاور بینک","Power Bank","Power Banks"], cat_other:["دیگر","Other","Other"], cat_repair:["ریپیئرنگ","Repairing","Repairing"],
+tab_products:["سامان","Saaman","Store"],
+pr_tip:["یہاں سے دکان کا سامان اور ریپیئرنگ کے ریٹ ڈالیں۔ تبدیلی فوراً سب کو نظر آئے گی۔","Yahan se dukaan ka saaman aur repairing ke rate dalein. Tabdeeli foran sab ko nazar aayegi.","Add shop items and repair rates here. Changes show to everyone instantly."],
+pr_add:["نیا سامان ڈالیں","Naya saaman dalein","Add item"], pr_edit:["سامان تبدیل کریں","Saaman tabdeel karein","Edit item"],
+pr_name:["نام *","Naam *","Name *"], pr_cat:["کیٹیگری","Category","Category"], pr_price:["قیمت (روپے) — خالی چھوڑیں تو \"ریٹ پوچھیں\"","Qeemat (Rupay) — khali chhorein to \"Rate poochein\"","Price (Rs) — leave empty for \"Ask price\""],
+pr_from:["قیمت \"سے شروع\" دکھائیں","Qeemat \"se shuru\" dikhayein","Show price as \"onwards\""], pr_stock:["اسٹاک میں ہے","Stock mein hai","In stock"],
+pr_note:["تفصیل (اختیاری)","Tafseel (ikhtiyari)","Details (optional)"], pr_img:["تصویر (اختیاری)","Tasveer (ikhtiyari)","Photo (optional)"],
+pr_save:["محفوظ کریں","Mehfooz karein","Save"], pr_saved:["محفوظ ہو گیا ✅","Mehfooz ho gaya ✅","Saved ✅"], pr_cancel:["منسوخ","Cancel","Cancel"],
+pr_edit_b:["✏️ تبدیل","✏️ Edit","✏️ Edit"], pr_delq:["یہ سامان ڈیلیٹ کریں؟","Yeh saaman delete karein?","Delete this item?"],
+pr_in:["✅ اسٹاک","✅ Stock","✅ In stock"], pr_outb:["⛔ ختم","⛔ Khatam","⛔ Out"], pr_none:["ابھی کوئی سامان نہیں ڈالا","Abhi koi saaman nahi dala","No items yet"],
+pr_needname:["نام لکھیں","Naam likhein","Enter a name"], pr_fail:["محفوظ نہیں ہو سکا — Firebase Rules چیک کریں","Mehfooz nahi ho saka — Firebase Rules check karein","Couldn't save — check Firebase Rules"],
 more_btn:["مزید اشتہار دیکھیں","Mazeed ads dekhein","Show more ads"],
 install_btn:["📲 ایپ انسٹال کریں","📲 App install karein","📲 Install the app"],
 install_sub:["ایک کلک میں Sandhu Mobile آپ کے موبائل پر ایپ کی طرح","Ek click mein Sandhu Mobile aap ke mobile par app ki tarah","Sandhu Mobile on your phone like an app, in one tap"],
@@ -351,6 +386,76 @@ function ensureAll(){
   fb.getDocs(fb.query(fb.collection(fb.db,"posts"),fb.where("status","==","live"))).then(s=>{liveAll=s.docs.map(d=>({id:d.id,...d.data()}));mergeLive();render()}).catch(e=>console.log(e)).finally(()=>loadingAll=false);
 }
 function dropLocal(id){const f=a=>a.filter(p=>p.id!==id);if(liveAll)liveAll=f(liveAll);livePins=f(livePins);livePage=f(livePage);if(!demo)mergeLive()}
+/* ===== store (accessories & repairing) ===== */
+const CATS=[["charger","🔌"],["handsfree","🎧"],["airbuds","🎵"],["cable","🔗"],["glass","🛡️"],["mic","🎙️"],["cover","📱"],["power","🔋"],["other","🧩"],["repair","🔧"]];
+const catIcon=c=>(CATS.find(x=>x[0]===c)||["","🧩"])[1];
+let products=null, prodLoading=false, storeCat="", prDraft=null;
+function loadProducts(force){
+  if(prodLoading||(products&&!force))return;
+  if(demo){ if(!products)products=demoProducts(); return }
+  prodLoading=true;
+  fb.getDocs(fb.collection(fb.db,"products")).then(s=>{products=s.docs.map(d=>({id:d.id,...d.data()}));render()}).catch(e=>{console.log(e);products=products||[];render()}).finally(()=>prodLoading=false);
+}
+function sortProducts(L){return [...L].sort((a,b)=>(CATS.findIndex(c=>c[0]===a.cat)-CATS.findIndex(c=>c[0]===b.cat))||((a.order||0)-(b.order||0))||String(a.name).localeCompare(String(b.name)))}
+function priceLabel(p){ if(!(+p.price>0))return `<span class="fromtag">${t("st_ask")}</span>`; return fmt(p.price)+(p.from?` <span class="fromtag">${t("st_from")}</span>`:"") }
+function orderLink(p){
+  const price=+p.price>0?(" – "+fmt(p.price)+(p.from?" "+t("st_from"):"")):"";
+  const msg=(p.cat==="repair"?t("st_msg_r"):t("st_msg"))+"\n"+p.name+price+"\n(sandhumobile.pk)";
+  return `https://wa.me/${waNum(SHOP.whatsapp||SHOP.phone)}?text=${encodeURIComponent(msg)}`;
+}
+function pcard(p){
+  const out=p.stock===false;
+  return `<div class="card pcard ${out?"out":""}">${out?`<span class="oos">${t("st_out")}</span>`:""}
+    <div class="ph">${p.img?`<img src="${p.img}" alt="" loading="lazy">`:catIcon(p.cat)}</div>
+    <div class="bd"><div class="model" style="font-weight:600">${esc(p.name)}</div>${p.note?`<div class="small">${esc(p.note)}</div>`:""}
+    <div class="price" style="font-size:15px">${priceLabel(p)}</div>
+    ${out?"":`<a class="btn wa wa-s" href="${orderLink(p)}" target="_blank" rel="noopener">${+p.price>0||p.cat!=="repair"?t("st_order"):t("st_ask")}</a>`}</div></div>`;
+}
+function storeView(){
+  loadProducts();
+  const all=products||[], used=CATS.filter(c=>all.some(p=>p.cat===c[0]));
+  const L=sortProducts(all.filter(p=>!storeCat||p.cat===storeCat));
+  return `<div class="shopbox"><b>${t("st_title")}</b><div class="small">${t("st_sub")}</div></div>
+  <div class="chips" style="margin-top:10px"><button class="chip ${!storeCat?"on":""}" data-scat="">${t("all")}</button>${used.map(c=>`<button class="chip ${storeCat===c[0]?"on":""}" data-scat="${c[0]}">${c[1]} ${t("cat_"+c[0])}</button>`).join("")}</div>
+  ${products===null?`<div class="empty">${t("st_loading")}</div>`:
+    L.length?`<div class="grid" style="margin-top:8px">${L.map(pcard).join("")}</div>`:
+    `<div class="empty">${phoneSvg(56)}<div>${t("st_empty")}</div><a class="btn wa" style="margin-top:10px" href="https://wa.me/${waNum(SHOP.whatsapp||SHOP.phone)}" target="_blank" rel="noopener">${t("whatsapp")}</a></div>`}
+  <div class="small" style="text-align:center;margin:14px 6px 4px">${t("st_note")}</div>`;
+}
+const newPr=()=>({id:"",name:"",cat:"charger",price:"",from:false,stock:true,note:"",img:""});
+function productsAdminView(){
+  loadProducts();
+  const L=sortProducts(products||[]), d=prDraft;
+  const form=d?`<div class="panel" id="prForm"><b>${d.id?"✏️ "+t("pr_edit"):"➕ "+t("pr_add")}</b>
+    <label>${t("pr_name")}</label><input data-pf="name" value="${esc(d.name)}" placeholder="Fast Charger 25W Type-C">
+    <label>${t("pr_cat")}</label><select data-pf="cat">${CATS.map(c=>`<option value="${c[0]}" ${d.cat===c[0]?"selected":""}>${c[1]} ${t("cat_"+c[0])}</option>`).join("")}</select>
+    <label>${t("pr_price")}</label><input data-pf="price" type="number" inputmode="numeric" min="0" value="${esc(d.price)}" placeholder="1200">
+    <label class="row" style="gap:8px;color:var(--ink)"><input type="checkbox" data-pf="from" style="width:auto" ${d.from?"checked":""}> ${t("pr_from")}</label>
+    <label class="row" style="gap:8px;color:var(--ink)"><input type="checkbox" data-pf="stock" style="width:auto" ${d.stock!==false?"checked":""}> ${t("pr_stock")}</label>
+    <label>${t("pr_note")}</label><input data-pf="note" value="${esc(d.note)}" placeholder="Original, 1 saal warranty">
+    <label>${t("pr_img")}</label>
+    ${d.img?`<div class="row" style="gap:8px;margin-bottom:6px"><img src="${d.img}" style="width:72px;height:72px;object-fit:contain;border:1px solid var(--line);border-radius:10px;background:#fff"><button class="chip" style="color:var(--red)" id="prImgDel">✕</button></div>`:""}
+    <label class="btn ghost" style="margin:0;color:#f2c54b">${d.img?t("bn_change"):t("bn_pick")}<input type="file" accept="image/*" id="prIn" class="hide"></label>
+    <div class="two" style="margin-top:10px"><button class="btn" id="prSave">${t("pr_save")}</button><button class="btn ghost" id="prCancel">${t("pr_cancel")}</button></div>
+  </div>`:`<button class="btn" id="prNew" style="margin-bottom:10px">➕ ${t("pr_add")}</button>`;
+  return `<div class="small" style="margin-bottom:8px">${t("pr_tip")}</div>${form}
+  ${products===null?`<div class="empty">${t("st_loading")}</div>`:!L.length?`<div class="empty">${t("pr_none")}</div>`:
+  L.map(p=>`<div class="list-item" style="align-items:center"><div class="th" style="font-size:26px;display:grid;place-items:center;background:#fff">${p.img?`<img src="${p.img}" style="object-fit:contain">`:catIcon(p.cat)}</div>
+    <div style="flex:1;min-width:0"><b>${esc(p.name)}</b><div class="small">${catIcon(p.cat)} ${t("cat_"+p.cat)} · ${priceLabel(p)}</div>
+    <div class="row" style="gap:6px;margin-top:4px;flex-wrap:wrap">
+      <button class="chip" data-pedit="${esc(p.id)}">${t("pr_edit_b")}</button>
+      <button class="chip" data-pstock="${esc(p.id)}">${p.stock===false?t("pr_outb"):t("pr_in")}</button>
+      <button class="chip" style="color:var(--red)" data-pdel="${esc(p.id)}">🗑️</button>
+    </div></div></div>`).join("")}`;
+}
+function compressProduct(file){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const M=420,s=Math.min(1,M/Math.max(im.width,im.height));const c=document.createElement("canvas");c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);const x=c.getContext("2d");x.fillStyle="#fff";x.fillRect(0,0,c.width,c.height);x.drawImage(im,0,0,c.width,c.height);res(c.toDataURL("image/jpeg",.62))};im.onerror=rej;im.src=r.result};r.onerror=rej;r.readAsDataURL(file)})}
+function demoProducts(){return [
+  {id:"x1",name:"Fast Charger 25W Type-C",cat:"charger",price:1200,from:false,stock:true,note:"Original"},
+  {id:"x2",name:"Type-C Fast Speed Cable",cat:"cable",price:350,from:true,stock:true},
+  {id:"x3",name:"9D Glass Protector",cat:"glass",price:250,from:true,stock:true},
+  {id:"x4",name:"Hands-free (Bass)",cat:"handsfree",price:450,stock:false},
+  {id:"x5",name:"LCD / Touch Panel Replacement",cat:"repair",price:0,stock:true,note:"100% original parts"},
+  {id:"x6",name:"Charging Port Repair",cat:"repair",price:800,from:true,stock:true}]}
 /* install-as-app */
 let installEvt=null; const isStandalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
 const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -407,6 +512,8 @@ const API={
   async photos(id){ if(demo)return (demoAll.find(p=>p.id===id)||{}).photos||[]; const s=await fb.getDoc(D("photos",id)); return s.exists()?(s.data().imgs||[]):[] },
   async saveConfig(c){ if(demo)return; await fb.setDoc(D("config","shop"),c) },
   async saveBanner(x){ if(demo){banners=banners.filter(y=>y.id!==x.id);banners.push(x);return} await fb.setDoc(D("banners",x.id),x) },
+  async saveProduct(p){ if(demo){products=(products||[]).filter(y=>y.id!==p.id);products.push(p);return} await fb.setDoc(D("products",p.id),p) },
+  async delProduct(id){ if(demo){products=(products||[]).filter(y=>y.id!==id);return} await fb.deleteDoc(D("products",id)) },
   async delBanner(id){ if(demo){banners=banners.filter(y=>y.id!==id);return} await fb.deleteDoc(D("banners",id)) }
 };
 async function loadPhotos(id){ if(photoCache[id])return; try{photoCache[id]=await API.photos(id);if(view==="detail"&&detailId===id)render()}catch(e){photoCache[id]=[]} }
@@ -469,7 +576,7 @@ function go(v,id){view=v;detailId=id||null;if(v==="post"&&!draft)draft=newDraft(
 $("#q").oninput=()=>render();
 function render(){
   const a=$("#app");
-  const V={home:homeView,detail:detailView,post:postView,pay:payView,mine:mineView,shop:shopView,admin:()=>isAdmin?adminView():""};
+  const V={store:storeView,home:homeView,detail:detailView,post:postView,pay:payView,mine:mineView,shop:shopView,admin:()=>isAdmin?adminView():""};
   a.innerHTML=(V[view]||homeView)(); bind(); setupBanner();
 }
 
@@ -513,6 +620,7 @@ function homeView(){
   </div>
   <div class="shopbox" style="margin-top:10px" data-go="shop"><div class="row" style="justify-content:space-between;gap:10px"><div><b>${t("safe_title")}</b><div class="small">${t("safe_sub")}</div></div><span style="font-size:22px">🛡️</span></div></div>
   ${!isStandalone()&&(installEvt||isIOS)?`<div class="shopbox" style="margin-top:8px;cursor:pointer" id="installBtn"><div class="row" style="justify-content:space-between;gap:10px"><div><b>${t("install_btn")}</b><div class="small">${t("install_sub")}</div></div><img src="icon-192.png" alt="" style="width:40px;height:40px;border-radius:10px"></div></div>`:""}
+  <div class="shopbox" style="margin-top:8px;cursor:pointer" data-go="store"><div class="row" style="justify-content:space-between;gap:10px"><div><b>${t("home_store")}</b><div class="small">${t("home_store_s")}</div></div><span style="font-size:22px">🛒</span></div></div>
   ${pins.length?`<div class="sec-title">${t("pinned_sec")}</div><div class="grid">${pins.map(card).join("")}</div>`:""}
   ${rest.length?`<div class="sec-title">${t("latest")}</div><div class="grid">${rest.map(card).join("")}</div>`:""}
   ${hasMore&&!needAll()&&!liveAll?`<button class="btn ghost" id="moreBtn" style="margin-top:12px;width:100%">${t("more_btn")}</button>`:""}
@@ -660,9 +768,10 @@ function shopView(){
 function adminRows(){ return allPosts.map(p=>({uid:p.ownerUid,p:{...p,tid:(payments[p.id]||{}).tid}})) }
 let adminTab="posts", setDraft=null;
 function adminView(){
-  const tabs=`<div class="plans" style="margin:6px 0 12px;gap:6px"><button class="plan ${adminTab==="posts"?"on":""}" data-atab="posts">📋 ${t("tab_posts")}</button><button class="plan ${adminTab==="live"?"on":""}" data-atab="live">📱 ${t("tab_live")}</button><button class="plan ${adminTab==="banners"?"on":""}" data-atab="banners">🖼️ ${t("tab_banners")}</button><button class="plan ${adminTab==="settings"?"on":""}" data-atab="settings">⚙️ ${t("tab_settings")}</button></div>`;
+  const tabs=`<div class="plans" style="margin:6px 0 12px;gap:6px"><button class="plan ${adminTab==="posts"?"on":""}" data-atab="posts">📋 ${t("tab_posts")}</button><button class="plan ${adminTab==="live"?"on":""}" data-atab="live">📱 ${t("tab_live")}</button><button class="plan ${adminTab==="products"?"on":""}" data-atab="products">🛒 ${t("tab_products")}</button><button class="plan ${adminTab==="banners"?"on":""}" data-atab="banners">🖼️ ${t("tab_banners")}</button><button class="plan ${adminTab==="settings"?"on":""}" data-atab="settings">⚙️ ${t("tab_settings")}</button></div>`;
   if(adminTab==="settings")return `<div class="sec-title">${t("admin_title")}</div>`+tabs+settingsView()+`<button class="btn red" style="margin-top:16px" id="adminLogout">${t("logout")}</button>`;
   if(adminTab==="banners")return `<div class="sec-title">${t("admin_title")}</div>`+tabs+bannersAdminView();
+  if(adminTab==="products")return `<div class="sec-title">${t("admin_title")}</div>`+tabs+productsAdminView();
   if(adminTab==="live")return `<div class="sec-title">${t("admin_title")}</div>`+tabs+liveAdminView();
   return adminPosts(tabs);
 }
@@ -780,7 +889,7 @@ function bind(){
     $("#rNo").onclick=()=>$("#modalRoot").innerHTML="";
     $("#rOk").onclick=async()=>{const note=$("#rr").value;$("#modalRoot").innerHTML="";try{await API.update(id,{status:"rejected",note});toast(t("t_rejected"));render()}catch(err){toast(t("t_changefail"))}};
   });
-  document.querySelectorAll("[data-atab]").forEach(e=>e.onclick=()=>{adminTab=e.dataset.atab;setDraft=null;render()});
+  document.querySelectorAll("[data-atab]").forEach(e=>e.onclick=()=>{adminTab=e.dataset.atab;setDraft=null;prDraft=null;render()});
   document.querySelectorAll("[data-s]").forEach(e=>e.oninput=()=>{setDraft[e.dataset.s]=e.value});
   const qi=$("#qrIn");if(qi)qi.onchange=async()=>{const f=qi.files[0];if(!f)return;try{setDraft.qr=await compressQR(f);render()}catch(e){toast(t("t_badimg"))}};
   const cs=$("#cancelSet");if(cs)cs.onclick=()=>{setDraft=null;render()};
@@ -817,6 +926,21 @@ function bind(){
     const id=e.dataset.del;
     confirmBox(t("del_confirm"),t("del_btn"),async()=>{try{await API.del(id);dropLocal(id);toast(t("t_deleted"));if(view==="detail")go("home");else render()}catch(err){toast(t("t_removefail"))}});
   });
+  document.querySelectorAll("[data-scat]").forEach(e=>e.onclick=()=>{storeCat=e.dataset.scat;render()});
+  const syncPr=()=>{ if(!prDraft)return; document.querySelectorAll("[data-pf]").forEach(i=>{prDraft[i.dataset.pf]=i.type==="checkbox"?i.checked:i.value}) };
+  const pn=$("#prNew");if(pn)pn.onclick=()=>{prDraft=newPr();render();setTimeout(()=>{const f=$("#prForm");if(f)f.scrollIntoView({behavior:"smooth"})},50)};
+  const pc=$("#prCancel");if(pc)pc.onclick=()=>{prDraft=null;render()};
+  const pid=$("#prImgDel");if(pid)pid.onclick=()=>{syncPr();prDraft.img="";render()};
+  const pi=$("#prIn");if(pi)pi.onchange=async()=>{const f=pi.files[0];if(!f)return;syncPr();try{prDraft.img=await compressProduct(f);render()}catch(e){toast(t("t_badimg"))}};
+  const ps=$("#prSave");if(ps)ps.onclick=async()=>{
+    syncPr(); const d=prDraft; if(!String(d.name).trim())return toast(t("pr_needname"));
+    const p={id:d.id||uidGen(),name:String(d.name).trim().slice(0,80),cat:d.cat,price:Math.max(0,Math.round(+d.price||0)),from:!!d.from,stock:d.stock!==false,note:String(d.note||"").trim().slice(0,80),img:d.img||"",order:d.order||Date.now(),updated:Date.now()};
+    ps.disabled=true;
+    try{await API.saveProduct(p);if(!demo){products=(products||[]).filter(x=>x.id!==p.id);products.push(p)}prDraft=null;toast(t("pr_saved"));render()}catch(e){console.log(e);ps.disabled=false;toast(t("pr_fail"))}
+  };
+  document.querySelectorAll("[data-pedit]").forEach(e=>e.onclick=()=>{const p=(products||[]).find(x=>x.id===e.dataset.pedit);if(!p)return;prDraft={...newPr(),...p,price:+p.price>0?p.price:""};render();setTimeout(()=>{const f=$("#prForm");if(f)f.scrollIntoView({behavior:"smooth"})},50)});
+  document.querySelectorAll("[data-pstock]").forEach(e=>e.onclick=async()=>{const p=(products||[]).find(x=>x.id===e.dataset.pstock);if(!p)return;const q={...p,stock:p.stock===false,updated:Date.now()};try{await API.saveProduct(q);if(!demo){products=products.filter(x=>x.id!==q.id);products.push(q)}render()}catch(err){toast(t("pr_fail"))}});
+  document.querySelectorAll("[data-pdel]").forEach(e=>e.onclick=()=>confirmBox(t("pr_delq"),t("del_btn"),async()=>{try{await API.delProduct(e.dataset.pdel);if(!demo)products=products.filter(x=>x.id!==e.dataset.pdel);toast(t("t_deleted"));render()}catch(err){toast(t("pr_fail"))}}));
   const mb=$("#moreBtn");if(mb)mb.onclick=()=>{mb.disabled=true;pageLimit+=PAGE;if(window.subLive)subLive()};
   const ib=$("#installBtn");if(ib)ib.onclick=async()=>{ if(installEvt){installEvt.prompt();try{await installEvt.userChoice}catch(e){}installEvt=null;render()} else toast(t("install_ios")) };
   const al=$("#adminLogin");if(al)al.onclick=adminLogin;
