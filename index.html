@@ -4,7 +4,32 @@
 <meta charset="utf-8">
 <meta name="theme-color" content="#121316">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sandhu Mobile — موبائل منڈی</title>
+<title>Sandhu Mobile City Center Jahanian | موبائل منڈی – New & Used Mobiles, Repairing & Accessories</title>
+<meta name="description" content="Sandhu Mobile, City Center Jahanian – new aur used mobiles, 100% original parts ke sath mobile repairing, LCD aur touch panel, fast chargers, Type-C cables, 3D/9D glass protectors, digital mic aur tamam accessories. Apna purana mobile bechne ke liye ad lagayein.">
+<meta name="keywords" content="Sandhu Mobile, mobile shop Jahanian, Jahanian mobile shop, mobile mandi Jahanian, used mobiles Jahanian, new mobiles Jahanian, mobile repairing Jahanian, LCD replacement, touch panel, original mobile parts, fast charger, Type C cable, 9D glass, 3D glass protector, digital mic, mobile accessories Jahanian">
+<link rel="canonical" href="https://sandhumobile.pk/">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Sandhu Mobile">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sandhumobile.pk/">
+<meta property="og:title" content="Sandhu Mobile Jahanian – Mobiles, Repairing & Accessories">
+<meta property="og:description" content="New & used mobiles, 100% original parts ke sath repairing, LCD, touch panel, chargers, cables, glass protectors aur tamam accessories. Mobile mandi – apna phone bechein ya khareedein.">
+<meta property="og:image" content="https://sandhumobile.pk/sandhu-mobile-shop.jpg">
+<meta property="og:locale" content="en_PK">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MobilePhoneStore","name":"Sandhu Mobile","url":"https://sandhumobile.pk/","image":"https://sandhumobile.pk/sandhu-mobile-shop.jpg","telephone":"+923007057121","priceRange":"Rs",
+"address":{"@type":"PostalAddress","streetAddress":"City Center","addressLocality":"Jahanian","addressRegion":"Punjab","postalCode":"58200","addressCountry":"PK"},
+"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Saturday","Sunday"],"opens":"10:00","closes":"22:00"}],
+"hasOfferCatalog":{"@type":"OfferCatalog","name":"Products & Services","itemListElement":[
+{"@type":"Offer","itemOffered":{"@type":"Product","name":"New Mobiles"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Used Mobiles"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Repairing with 100% Original Parts"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"LCD & Touch Panel"}},
+{"@type":"Offer","itemOffered":{"@type":"Product","name":"Fast Chargers"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Fast Speed Type-C Cables"}},
+{"@type":"Offer","itemOffered":{"@type":"Product","name":"Digital Mic"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"3D / 9D Glass Protectors"}},
+{"@type":"Offer","itemOffered":{"@type":"Product","name":"Mobile Accessories"}}]}}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
 <style>
@@ -115,7 +140,7 @@ body.ltr .btn{padding:12px 14px}
 body.ltr .tag{line-height:1.5;margin-top:2px}
 body.ltr .meta{line-height:1.6}
 body.ltr .chip{padding:5px 14px}
-body.ltr nav button{padding:9px 0 6px;font-size:11px}
+body.ltr nav button{padding:9px 0 6px;font-size:11px;white-space:nowrap;min-width:0}
 body.ltr .sec-title{margin:16px 2px 8px}
 body.ltr .list-item .small,body.ltr .shopbox .small{line-height:1.5}
 body.ltr .plan small{line-height:1.5}
@@ -190,7 +215,7 @@ const T = {
 tagline:["جہانیاں کی اپنی موبائل منڈی","Jahanian ki apni Mobile Mandi","Jahanian's own mobile marketplace"],
 demo:["ڈیمو موڈ: یہاں ڈالا گیا ڈیٹا صرف اس اسکرین پر رہے گا","Demo mode: yahan dala gaya data sirf is screen par rahega","Demo mode: data entered here stays on this screen only"],
 search:["موبائل تلاش کریں… مثلاً iPhone 13","Mobile talash karein… maslan iPhone 13","Search mobiles… e.g. iPhone 13"],
-nav_home:["ہوم","Home","Home"], nav_mine:["میری پوسٹس","Meri Posts","My Ads"], nav_post:["پوسٹ لگائیں","Post Lagayein","Post Ad"], nav_shop:["ہماری دکان","Hamari Dukaan","Our Shop"], nav_admin:["ایڈمن","Admin","Admin"],
+nav_home:["ہوم","Home","Home"], nav_mine:["میری پوسٹس","Meri Posts","My Ads"], nav_post:["پوسٹ لگائیں","Post Lagayein","Post Ad"], nav_shop:["ہماری دکان","Dukaan","Shop"], nav_admin:["ایڈمن","Admin","Admin"],
 all:["سب","Sab","All"], Other:["دیگر","Deegar","Other"],
 available:["{n} موبائل دستیاب","{n} mobile dastiyab","{n} mobiles available"],
 sort_new:["نئے پہلے","Naye pehle","Newest"], sort_low:["سستے پہلے","Saste pehle","Price: low"], sort_high:["مہنگے پہلے","Mehngay pehle","Price: high"],
@@ -297,6 +322,10 @@ bn_saved:["بینر لگ گیا ✅","Banner lag gaya ✅","Banner added ✅"], 
 bn_max:["زیادہ سے زیادہ {n} بینر لگ سکتے ہیں","Zyada se zyada {n} banner lag sakte hain","Maximum {n} banners"],
 admin_login:["ایڈمن لاگ اِن","Admin login","Admin login"], logout:["لاگ آؤٹ","Logout","Log out"],
 t_loginfail:["لاگ اِن نہیں ہو سکا","Login nahi ho saka","Login failed"], t_notadmin:["یہ Gmail ایڈمن نہیں ہے","Yeh Gmail admin nahi hai","This Gmail is not an admin"],
+more_btn:["مزید اشتہار دیکھیں","Mazeed ads dekhein","Show more ads"],
+install_btn:["📲 ایپ انسٹال کریں","📲 App install karein","📲 Install the app"],
+install_sub:["ایک کلک میں Sandhu Mobile آپ کے موبائل پر ایپ کی طرح","Ek click mein Sandhu Mobile aap ke mobile par app ki tarah","Sandhu Mobile on your phone like an app, in one tap"],
+install_ios:["Safari میں نیچے Share بٹن دبائیں، پھر Add to Home Screen","Safari mein neeche Share button dabayein, phir Add to Home Screen","In Safari tap Share, then Add to Home Screen"],
 ago_now:["ابھی","Abhi","Just now"], ago_m:["{n} منٹ پہلے","{n} minute pehle","{n} min ago"], ago_h:["{n} گھنٹے پہلے","{n} ghantay pehle","{n} h ago"], ago_d:["{n} دن پہلے","{n} din pehle","{n} d ago"]
 };
 const LANGS=["ur","ro","en"];
@@ -313,6 +342,21 @@ const brandName=b=>b==="Other"||b==="دیگر"?t("Other"):b;
 let db=null, user=null, me=null, isAdmin=false, demo=true;
 let live=[], mySubs=[], allPosts=[], payments={}, photoCache={}, banners=[], bannerIdx=0, demoAll=[];
 let fb=null, uid=null;
+/* paging: load newest ads in pages instead of all at once */
+const PAGE=30; let pageLimit=PAGE, livePage=[], livePins=[], liveAll=null, hasMore=false, pagedOK=true, loadingAll=false, unsubLive=null;
+function mergeLive(){const m=new Map();[...(liveAll||[]),...livePins,...livePage].forEach(p=>m.set(p.id,p));live=[...m.values()]}
+const needAll=()=>!!(brand||sort!=="new"||(($("#q")||{}).value||"").trim());
+function ensureAll(){
+  if(demo||liveAll||loadingAll||!pagedOK||!hasMore)return; loadingAll=true;
+  fb.getDocs(fb.query(fb.collection(fb.db,"posts"),fb.where("status","==","live"))).then(s=>{liveAll=s.docs.map(d=>({id:d.id,...d.data()}));mergeLive();render()}).catch(e=>console.log(e)).finally(()=>loadingAll=false);
+}
+function dropLocal(id){const f=a=>a.filter(p=>p.id!==id);if(liveAll)liveAll=f(liveAll);livePins=f(livePins);livePage=f(livePage);if(!demo)mergeLive()}
+/* install-as-app */
+let installEvt=null; const isStandalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+addEventListener("beforeinstallprompt",e=>{e.preventDefault();installEvt=e;if(view==="home")render()});
+addEventListener("appinstalled",()=>{installEvt=null;render()});
+if("serviceWorker" in navigator&&location.protocol==="https:")addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(e=>console.log(e)));
 const MAX_BANNERS=10;
 const DEFAULT_BANNER="data:image/svg+xml;utf8,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8dc7a"/><stop offset=".5" stop-color="#e6b33a"/><stop offset="1" stop-color="#c48a12"/></linearGradient><radialGradient id="b" cx="1" cy="0" r="1.3"><stop offset="0" stop-color="#2d2f35"/><stop offset="1" stop-color="#0c0d0f"/></radialGradient></defs><rect width="800" height="400" fill="url(#b)"/><circle cx="690" cy="200" r="230" fill="none" stroke="url(#g)" stroke-width="3" opacity=".35"/><rect x="600" y="80" width="130" height="240" rx="22" fill="none" stroke="#f3efe6" stroke-width="6" opacity=".9"/><circle cx="665" cy="295" r="7" fill="#e6b33a"/><text x="50" y="125" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="58" letter-spacing="4" fill="url(#g)">SANDHU MOBILE</text><text x="52" y="190" font-family="Arial,Helvetica,sans-serif" font-size="30" fill="#f3efe6">New &amp; Used Mobiles</text><text x="52" y="232" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#bdb5a4">PTA / IMEI Check  ·  Safe Deals</text><rect x="52" y="272" width="300" height="56" rx="28" fill="url(#g)"/><text x="202" y="308" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="22" fill="#16171a">City Center, Jahanian</text></svg>`);
 let view="home", detailId=null, brand="", sort="new", draft=null, payFor=null;
@@ -358,6 +402,7 @@ const API={
     await b.commit();
   },
   async update(id,patch){ if(demo){const p=demoAll.find(x=>x.id===id);if(p)Object.assign(p,patch);derive();return} await fb.updateDoc(D("posts",id),patch) },
+  async sold(id){ if(demo){const p=demoAll.find(x=>x.id===id);if(p)Object.assign(p,{status:"sold",soldAt:Date.now()});derive();return} const b=fb.writeBatch(fb.db);b.update(D("posts",id),{status:"sold",soldAt:Date.now()});b.delete(D("photos",id));await b.commit();delete photoCache[id] },
   async del(id){ if(demo){demoAll=demoAll.filter(p=>p.id!==id);derive();return} const b=fb.writeBatch(fb.db);["posts","photos","payments"].forEach(c=>b.delete(D(c,id)));await b.commit() },
   async photos(id){ if(demo)return (demoAll.find(p=>p.id===id)||{}).photos||[]; const s=await fb.getDoc(D("photos",id)); return s.exists()?(s.data().imgs||[]):[] },
   async saveConfig(c){ if(demo)return; await fb.setDoc(D("config","shop"),c) },
@@ -391,7 +436,15 @@ async function boot(){
   let loaded=false; const tm=setTimeout(()=>{if(!loaded)toast(t("t_slow"))},10000);
   fb.onSnapshot(D("config","shop"),s=>{applyConfig(s.exists()?s.data():null);render()},()=>{});
   fb.onSnapshot(fb.collection(db,"banners"),s=>{banners=s.docs.map(d=>({id:d.id,...d.data()}));render()},()=>{});
-  fb.onSnapshot(fb.query(fb.collection(db,"posts"),fb.where("status","==","live")),s=>{live=s.docs.map(d=>({id:d.id,...d.data()}));loaded=true;clearTimeout(tm);render()},e=>{clearTimeout(tm);console.log(e)});
+  const col=fb.collection(db,"posts");
+  window.subLive=()=>{
+    if(unsubLive)unsubLive();
+    const q=pagedOK?fb.query(col,fb.where("status","==","live"),fb.orderBy("approvedAt","desc"),fb.limit(pageLimit)):fb.query(col,fb.where("status","==","live"));
+    unsubLive=fb.onSnapshot(q,s=>{livePage=s.docs.map(d=>({id:d.id,...d.data()}));hasMore=pagedOK&&s.size>=pageLimit;loaded=true;clearTimeout(tm);mergeLive();render()},
+      e=>{ if(pagedOK&&e&&e.code==="failed-precondition"){console.log("Firestore index missing (posts: status + approvedAt). Loading all ads instead.",e.message);pagedOK=false;subLive()} else {clearTimeout(tm);console.log(e)} });
+  };
+  subLive();
+  fb.onSnapshot(fb.query(col,fb.where("status","==","live"),fb.where("plan","==","pin")),s=>{livePins=s.docs.map(d=>({id:d.id,...d.data()}));mergeLive();render()},e=>console.log(e));
   fb.onAuthStateChanged(auth,async u=>{
     unsubAdmin.forEach(f=>f());unsubAdmin=[]; if(unsubMine){unsubMine();unsubMine=null}
     isAdmin=false; allPosts=[]; payments={}; mySubs=[];
@@ -422,6 +475,7 @@ function render(){
 
 /* ===== home ===== */
 function filtered(){
+  if(needAll())ensureAll();
   const q=$("#q").value.trim().toLowerCase();
   let L=live.filter(a=>(!brand||a.brand===brand)&&(!q||(a.brand+" "+a.model+" "+(a.storage||"")+" "+(a.city||"")).toLowerCase().includes(q)));
   if(sort==="low")L.sort((x,y)=>x.price-y.price);else if(sort==="high")L.sort((x,y)=>y.price-x.price);else L.sort((x,y)=>(y.approvedAt||0)-(x.approvedAt||0));
@@ -454,12 +508,14 @@ function homeView(){
   const L=filtered(), pins=L.filter(a=>a.plan==="pin"), rest=L.filter(a=>a.plan!=="pin");
   return `${bannerHTML()}<div class="chips"><button class="chip ${!brand?"on":""}" data-brand="">${t("all")}</button>${BRANDS.map(b=>`<button class="chip ${brand===b?"on":""}" data-brand="${b}">${brandName(b)}</button>`).join("")}</div>
   <div class="row" style="justify-content:space-between;margin-top:4px">
-    <span class="small">${t("available",{n:`<span class="num">${L.length}</span>`})}</span>
+    <span class="small">${t("available",{n:`<span class="num">${L.length}${hasMore&&!liveAll?"+":""}</span>`})}</span>
     <select id="sort" style="width:auto;padding:2px 10px;font-size:12.5px"><option value="new" ${sort==="new"?"selected":""}>${t("sort_new")}</option><option value="low" ${sort==="low"?"selected":""}>${t("sort_low")}</option><option value="high" ${sort==="high"?"selected":""}>${t("sort_high")}</option></select>
   </div>
   <div class="shopbox" style="margin-top:10px" data-go="shop"><div class="row" style="justify-content:space-between;gap:10px"><div><b>${t("safe_title")}</b><div class="small">${t("safe_sub")}</div></div><span style="font-size:22px">🛡️</span></div></div>
+  ${!isStandalone()&&(installEvt||isIOS)?`<div class="shopbox" style="margin-top:8px;cursor:pointer" id="installBtn"><div class="row" style="justify-content:space-between;gap:10px"><div><b>${t("install_btn")}</b><div class="small">${t("install_sub")}</div></div><img src="icon-192.png" alt="" style="width:40px;height:40px;border-radius:10px"></div></div>`:""}
   ${pins.length?`<div class="sec-title">${t("pinned_sec")}</div><div class="grid">${pins.map(card).join("")}</div>`:""}
   ${rest.length?`<div class="sec-title">${t("latest")}</div><div class="grid">${rest.map(card).join("")}</div>`:""}
+  ${hasMore&&!needAll()&&!liveAll?`<button class="btn ghost" id="moreBtn" style="margin-top:12px;width:100%">${t("more_btn")}</button>`:""}
   ${!L.length?`<div class="empty">${phoneSvg(64)}<div>${live.length?t("no_match"):t("no_ads")}</div><button class="btn" style="margin-top:10px" data-go="post">${t("nav_post")}</button></div>`:""}`;
 }
 
@@ -612,7 +668,7 @@ function adminView(){
 }
 function adminBtns(id){return `<div class="two" style="margin-top:6px"><button class="btn ghost" style="color:#f2c54b" data-sold="${esc(id)}">${t("sold_btn")}</button><button class="btn red" data-del="${esc(id)}">${t("del_btn")}</button></div>`}
 function liveAdminView(){
-  const L=[...live].sort((a,b)=>(b.approvedAt||0)-(a.approvedAt||0));
+  const L=[...(isAdmin&&!demo?allPosts.filter(p=>p.status==="live"):live)].sort((a,b)=>(b.approvedAt||0)-(a.approvedAt||0));
   if(!L.length)return `<div class="empty">${t("no_live")}</div>`;
   return `<div class="small" style="margin-bottom:8px">${t("live_tip")}</div>`+L.map(a=>`<div class="list-item"><div class="th" data-open="${esc(a.id)}">${(a.thumb||(a.photos&&a.photos[0]))?`<img src="${a.thumb||a.photos[0]}">`:phoneSvg(36)}</div>
     <div style="flex:1;min-width:0">
@@ -755,12 +811,14 @@ function bind(){
   });
   document.querySelectorAll("[data-sold]").forEach(e=>e.onclick=()=>{
     const id=e.dataset.sold;
-    confirmBox(t("sold_confirm"),t("yes"),async()=>{try{await API.update(id,{status:"sold",soldAt:Date.now()});toast(t("t_sold"));if(view==="detail")go("home");else render()}catch(err){toast(t("t_removefail"))}},"");
+    confirmBox(t("sold_confirm"),t("yes"),async()=>{try{await API.sold(id);dropLocal(id);toast(t("t_sold"));if(view==="detail")go("home");else render()}catch(err){toast(t("t_removefail"))}},"");
   });
   document.querySelectorAll("[data-del]").forEach(e=>e.onclick=()=>{
     const id=e.dataset.del;
-    confirmBox(t("del_confirm"),t("del_btn"),async()=>{try{await API.del(id);toast(t("t_deleted"));if(view==="detail")go("home");else render()}catch(err){toast(t("t_removefail"))}});
+    confirmBox(t("del_confirm"),t("del_btn"),async()=>{try{await API.del(id);dropLocal(id);toast(t("t_deleted"));if(view==="detail")go("home");else render()}catch(err){toast(t("t_removefail"))}});
   });
+  const mb=$("#moreBtn");if(mb)mb.onclick=()=>{mb.disabled=true;pageLimit+=PAGE;if(window.subLive)subLive()};
+  const ib=$("#installBtn");if(ib)ib.onclick=async()=>{ if(installEvt){installEvt.prompt();try{await installEvt.userChoice}catch(e){}installEvt=null;render()} else toast(t("install_ios")) };
   const al=$("#adminLogin");if(al)al.onclick=adminLogin;
   const ao=$("#adminLogout");if(ao)ao.onclick=adminLogout;
 }
